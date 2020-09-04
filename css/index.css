@@ -94,15 +94,23 @@ header nav a {
 }
 
 .top-image {
-    display: flex;
-    justify-content: center;
-    background: url('https://picsum.photos/800');
+    display:flex;
+    align-self: center;
+    background:url('/img/jumbo.jpg');
     background-repeat: no-repeat;
-    background-size: 100%;
-    background-position: center;
-    height: 30vh;
+    background-size: cover;
+    height: 18vh;
     margin: 3% 0;
-    
+}
+
+.top-image-about {
+    display:flex;
+    align-self: center;
+    background:url('/img/jumbo-about.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 18vh;
+    margin: 3% 0; 
 }
 
 .top-content {
@@ -211,24 +219,56 @@ footer nav a {
 
 /*About.html Styles*/
 .middle-about div p {
-    width: 50%;
+    margin: 1% 0;
     
+}
+.middle-about div h2 {
+    margin-top: 3%;
 }
 
-.middle-about {
-    display: flex;
-    
-    border: 1px solid gray;
-}
+.middle-about div a {
+    border: 2px solid black;
+    width:30%;
+    text-align:center;
+    border-radius:7px;
+    padding:2% 1%;
+    text-decoration:none;
+    margin: 3% 0;
+    color: black;
+  }
 
 .about-boxes {
     display: flex;
-    flex-wrap: wrap;
+    justify-content: center;
     
-    border: 1px solid gray;
+    margin: 20px;
+   
 }
 
 .inside-box {
-    
-    border: 1px solid gray;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    border-bottom: 1px dashed black;
+}
+
+.box-one {
+    margin-right: 10px;
+}
+.box-two {
+    margin-left: 10px;
+}
+.box-three {
+    margin-right: 10px;
+}
+.box-four {
+    margin-left: 10px;
+}
+
+.bottom-about {
+    margin: 3% 0;
+}
+
+.top-about {
+    margin: 3% 0;
 }
