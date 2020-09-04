@@ -74,7 +74,7 @@ header div {
     display: flex;
     align-items: baseline;
     padding-top: 2%;
-    border: 1px solid gray;
+    
    
 }
 header nav {
@@ -94,9 +94,15 @@ header nav a {
 }
 
 .top-image {
-    background: url('img/jumbo.jpg');
-    height: 20vh;
-    border: 1px solid gray;
+    display: flex;
+    justify-content: center;
+    background: url('https://picsum.photos/800');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    height: 30vh;
+    margin: 3% 0;
+    
 }
 
 .top-content {
@@ -131,13 +137,43 @@ header nav a {
 
 .middle-content .boxes .box {
     width: 12.5%;
-    height: 100px;
-    background: black;
+    height: 100px; 
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.box1 {
+    background-color: teal;
+}
+.box2 {
+    background-color: gold;
+}
+.box3 {
+    background-color: cadetblue;
+}
+.box4 {
+    background-color: coral;
+}
+.box5 {
+    background-color: crimson;
+}
+.box6 {
+    background-color: forestgreen;
+}
+.box7 {
+    background-color: darkorchid;
+}
+.box8 {
+    background-color: hotpink;
+}
+.box9 {
+    background-color: indigo;
+}
+.box10 {
+    background-color: dodgerblue;
 }
 
 .bottom-content {
@@ -171,4 +207,28 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/*About.html Styles*/
+.middle-about div p {
+    width: 50%;
+    
+}
+
+.middle-about {
+    display: flex;
+    
+    border: 1px solid gray;
+}
+
+.about-boxes {
+    display: flex;
+    flex-wrap: wrap;
+    
+    border: 1px solid gray;
+}
+
+.inside-box {
+    
+    border: 1px solid gray;
 }
